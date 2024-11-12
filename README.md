@@ -33,12 +33,8 @@ We will then create the AWS lambda resource with the above python code.
 ### SNS
 We will also create an SNS topic and create a subscription for an intended email to receive messages.
 
-<img width="1299" alt="Screenshot 2023-10-02 at 7 13 55 PM" src="https://github.com/luqmannnn/lambda-sns-cloudwatch/assets/9068525/72b81bc4-5d43-4dba-b93e-5585c229b375">
-
 ## End Goal
 Should everything be set up successfully, we will be able to receive an email notification with the parameters we have specified, for example:
-
-<img width="811" alt="Screenshot 2023-10-02 at 7 15 10 PM" src="https://github.com/luqmannnn/lambda-sns-cloudwatch/assets/9068525/516be494-a80b-40bf-a140-947eb46cc2f0">
 
 ## Clean Up
 Once done, remove all the resources that have been created:
